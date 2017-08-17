@@ -4,9 +4,9 @@
   "description": "Pragmatic introduction to ReactJS",
   "main": "src/app.js",
   "scripts": {
-    "prestart": "npm install",
     "start": "webpack-dev-server",
-    "bundle": "cp src/index.html dist/ & webpack -p ./dist/bundle.js"
+    "bundle": "cp src/index.html dist/ & webpack -p ./dist/bundle.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,28 +16,39 @@
   "license": "MIT",
   "homepage": "https://github.com/morsdyce/ngReact-minesweeper",
   "devDependencies": {
-    "babel-core": "5.6.4",
-    "babel-loader": "5.1.4",
-    "css-loader": "0.15.1",
-    "file-loader": "0.8.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
     "json-loader": "0.5.2",
     "node-libs-browser": "0.5.2",
     "node-sass": "^4.5.1",
-    "raw-loader": "0.5.1",
-    "style-loader": "0.12.3",
-    "url-loader": "0.5.6",
-    "webpack": "1.9.11",
-    "webpack-dev-server": "1.9.0"
+    "raw-loader": "^0.5.1",
+    "react-test-renderer": "15.4.2",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
     "angular": "1.4.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.1",
     "eventemitter2": "0.4.14",
     "flux": "2.1.1",
+    "jest": "^20.0.4",
     "keymirror": "0.1.1",
     "lodash": "3.10.1",
     "object-assign": "4.0.1",
     "react": "15.4.2",
     "react-dom": "15.4.2",
     "uuid": "3.1.0"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "node_modules",
+      "<rootDir>"
+    ]
   }
 }
