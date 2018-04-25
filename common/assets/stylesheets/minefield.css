@@ -10,7 +10,7 @@
 .window {
   border: 1px solid black;
   clear: both;
-  margin-top: 35px;
+  margin: 35px auto 0 auto;
   background-color: silver;
   width: 263px;
 }
