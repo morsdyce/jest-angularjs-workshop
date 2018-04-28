@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<cell> should show a NUMBER1 spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"number-1.png\\" src=\\"unsafe:number-1.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show a NUMBER2 spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"number-2.png\\" src=\\"unsafe:number-2.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show a NUMBER3 spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"number-3.png\\" src=\\"unsafe:number-3.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show a NUMBER4 spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"number-4.png\\" src=\\"unsafe:number-4.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show a NUMBER5 spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"number-5.png\\" src=\\"unsafe:number-5.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show a NUMBER6 spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"number-6.png\\" src=\\"unsafe:number-6.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show a NUMBER7 spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"number-7.png\\" src=\\"unsafe:number-7.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show a NUMBER8 spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"number-8.png\\" src=\\"unsafe:number-8.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show a flagged spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged --><span ng-if=\\"!Cell.spot.isRevealed &amp;&amp; Cell.spot.isFlagged\\" class=\\"ng-scope\\">
+  <img ng-src=\\"flag-mine.png\\" src=\\"unsafe:flag-mine.png\\">
+</span><!-- end ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show a mine spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"mine.png\\" src=\\"unsafe:mine.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show an empty spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed --><span ng-if=\\"Cell.spot.isRevealed\\" class=\\"ng-scope\\">
+  <img ng-src=\\"empty.png\\" src=\\"unsafe:empty.png\\">
+</span><!-- end ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;
+
+exports[`<cell> should show an unrevealed spot 1`] = `
+"<!-- ngIf: Cell.spot.isRevealed -->
+
+<!-- ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged --><span ng-if=\\"!Cell.spot.isRevealed &amp;&amp; !Cell.spot.isFlagged\\" class=\\"ng-scope\\">
+  <img ng-src=\\"covered.png\\" src=\\"unsafe:covered.png\\">
+</span><!-- end ngIf: !Cell.spot.isRevealed && !Cell.spot.isFlagged -->
+
+<!-- ngIf: !Cell.spot.isRevealed && Cell.spot.isFlagged -->
+
+"
+`;

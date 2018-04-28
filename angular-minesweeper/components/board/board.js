@@ -14,7 +14,7 @@ export default function Board() {
   };
 }
 
-class BoardController {
+export class BoardController {
   constructor($scope) {
     this.$scope = $scope;
     this.game = new MineSweeper();

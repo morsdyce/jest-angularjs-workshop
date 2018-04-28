@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<timer> should render a timer 1`] = `
+"<div class=\\"timer number-window\\">
+  <span class=\\"ng-binding\\">
+    0
+  </span>
+</div>
+
+"
+`;

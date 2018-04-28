@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<title-bar> should render title bar 1`] = `
+"<div class=\\"title-bar\\">
+  <div class=\\"app-name\\">
+    <img ng-src=\\"icon.png\\" src=\\"unsafe:icon.png\\"> Minesweeper
+  </div>
+  <div class=\\"window-buttons\\">
+    <img ng-src=\\"title-buttons.png\\" id=\\"title-buttons\\" src=\\"unsafe:title-buttons.png\\">
+  </div>
+</div>"
+`;

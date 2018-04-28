@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<new-game-button> should render a new game button 1`] = `
+"<div class=\\"new-game-button\\">
+  <img ng-src=\\"newgame.jpg\\" ng-click=\\"NewGameButton.startNewGame()\\" src=\\"unsafe:newgame.jpg\\">
+</div>
+"
+`;

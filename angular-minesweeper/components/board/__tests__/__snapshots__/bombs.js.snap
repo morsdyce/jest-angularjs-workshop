@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<bombs> should display 5 bombs 1`] = `
+"<div class=\\"bomb-count number-window\\">
+  <span class=\\"ng-binding\\">
+    5
+  </span>
+</div>
+
+
+
+"
+`;
