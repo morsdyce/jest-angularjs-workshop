@@ -2,25 +2,7 @@ import 'angular-minesweeper';
 import { noop } from 'lodash';
 import { BoardController } from 'angular-minesweeper/components/board/board';
 
-jest.mock('common/minesweeper', () => {
-  return class FakeSweeper {
-    constructor() {
-      this.size = 9;
-      this.isBlown = false;
-      this.minefield = {
-        rows: [],
-        id: 'fake-id'
-      };
-
-      this.hasWon = jest.fn(() => true);
-      this.hasLost = jest.fn(() => false);
-    }
-
-    remainingBombs() {
-      return 0;
-    }
-  };
-});
+jest.mock('common/minesweeper');
 
 describe('<board>', () => {
   let $scope, $controller;
