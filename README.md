@@ -1,10 +1,10 @@
-# Pragmatic introduction to ReactJS
+# introduction to Jest with angularJS
 
 ## To run:
 
 ```
-git clone https://github.com/morsdyce/ngReact-minesweeper
-cd ngReact-minesweeper
+https://github.com/morsdyce/jest-angularjs-workshop.git
+cd jest-angularjs-workshop
 npm start
 ```
 
